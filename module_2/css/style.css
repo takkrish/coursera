@@ -1,1 +1,189 @@
+* {
 
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: monospace, sans-serif;
+
+}
+
+@media (max-width:767px) {
+
+  h1 {
+
+    color: darkorange;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    margin: 5%;
+
+    font-weight: 900;
+
+  }
+
+  section {
+
+    background: lightcyan;
+
+    padding: 5%;
+
+    margin: 5%;
+
+    border: 2px solid darkturquoise;
+
+  }
+
+  section h2 {
+
+    color: lightseagreen;
+
+    border: 2px solid darkcyan;
+
+    float: right;
+
+    text-transform: capitalize;
+
+    padding: 1rem;
+
+    font-weight: 600;
+
+  }
+
+  section p {
+
+    margin-top: 5rem;
+
+    line-height: 1.5rem;
+
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+
+  h1 {
+
+    color: darkorange;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    margin: 5%;
+
+    font-weight: 900;
+
+  }
+
+  section {
+
+    background: lightcyan;
+
+    padding: 2%;
+
+    margin: 2%;
+
+    border: 2px solid darkturquoise;
+
+    width: 46%;
+
+    float: left;
+
+  }
+
+  
+
+  section:nth-child(4){
+
+    width: 96%;
+
+  }
+
+  section h2 {
+
+    color: lightseagreen;
+
+    border: 2px solid darkcyan;
+
+    float: right;
+
+    text-transform: capitalize;
+
+    padding: 1rem;
+
+    font-weight: 600;
+
+  }
+
+  section p {
+
+    margin-top: 5rem;
+
+    line-height: 1.5rem;
+
+  }
+
+}
+
+@media (min-width:992px) {
+
+  h1 {
+
+    color: darkorange;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    margin: 5%;
+
+    font-weight: 900;
+
+  }
+
+  section {
+
+    background: lightcyan;
+
+    padding: 2%;
+
+    margin: 2%;
+
+    border: 2px solid darkturquoise;
+
+    width: 29.3%;
+
+    float: left;
+
+  }
+
+  section h2 {
+
+    color: lightseagreen;
+
+    border: 2px solid darkcyan;
+
+    float: right;
+
+    text-transform: capitalize;
+
+    padding: 10px;
+
+    font-weight: 600;
+
+  }
+
+  section p {
+
+    margin-top: 5rem;
+
+    line-height: 1.5rem;
+
+  }
+
+}
